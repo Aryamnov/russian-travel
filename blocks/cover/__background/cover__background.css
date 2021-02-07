@@ -1,0 +1,20 @@
+.cover__background {
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    opacity: 0.8;
+    transition: 0.4s linear;
+}
+
+.cover__background:hover {
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 1184px) {
+    .cover__background {
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}

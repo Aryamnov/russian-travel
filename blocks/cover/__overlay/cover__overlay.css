@@ -1,0 +1,15 @@
+.cover__overlay {
+    min-height: 740px;
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+@media screen and (max-width: 1184px) {
+    .cover__overlay {
+        min-height: calc(100vw * 0.625);
+    }
+}
