@@ -6,12 +6,19 @@
     padding-bottom: 80px;
 }
 
-.place:nth-child(5) {
+.place:last-child {
     padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1050px) {
+    .place {
+        column-gap: 32px;
+    }
 }
 
 @media screen and (max-width: 900px) {
     .place {
+        column-gap: 28px;
         padding-bottom: 73px;
     }
     .place:nth-child(5) {

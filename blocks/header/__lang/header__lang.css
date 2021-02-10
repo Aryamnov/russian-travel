@@ -3,9 +3,16 @@
     list-style-type: none;
     margin: 0;
     margin-bottom: 6px;
-    font-family: Inter,Arial,sans-serif;
+    font-family: 'Inter',Arial,sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
+}
+
+@media screen and (max-width: 700px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }
